@@ -8,12 +8,6 @@ LABELS_FILENAME = 'model/labels.txt'
 
 WIDTH_IN = 512
 HEIGHT_IN = 512
-WIDTH_OUT = 640
-HEIGHT_OUT = 480
-
-# Define the codec and create VideoWriter object
-fourcc = cv.VideoWriter_fourcc(*'XVID')
-output = cv.VideoWriter('Asteroid_Results.avi', fourcc, 30.0, (WIDTH_OUT, HEIGHT_OUT))
 
 class TFObjectDetection(ObjectDetection):
     """Object Detection class for TensorFlow"""
@@ -33,7 +27,7 @@ class TFObjectDetection(ObjectDetection):
             outputs = sess.run(output_tensor, {'Placeholder:0': inputs[np.newaxis, ...]})
             return outputs[0]
 
-def main(video_file):
+def main(video_stream):
     # Load a TensorFlow model
     graph_def = tf.compat.v1.GraphDef()
     with tf.io.gfile.GFile(MODEL_FILENAME, 'rb') as f:
@@ -45,7 +39,7 @@ def main(video_file):
 
     # Prepare ML model and video dataset
     tf_model = TFObjectDetection(graph_def, labels)
-    cap = cv.VideoCapture(video_file)
+    cap = cv.VideoCapture(0)
 
     # Frame-by-frame operations
     while cap.isOpened():
@@ -92,21 +86,18 @@ def main(video_file):
                 )
                 cv.putText(
                     frame_boxed,
-                    str(prediction["tagName"]) + " " + probability,
+                    str(prediction["tagName"]), # + " " + probability,
                     point3, font, 0.7, colour_red
                 )
     
         # Display and export the resulting frame
         cv.imshow('frame', rgb)
-        out = cv.resize(rgb, (WIDTH_OUT, HEIGHT_OUT))  
-        output.write(out)
         if cv.waitKey(1) == ord('q'):
             break
 
     # When everything is done, release the capture
     cap.release()
-    output.release()
     cv.destroyAllWindows()
 
 if __name__ == '__main__':
-    main("./ESO_asteroid.mp4")
+    main("XX")
