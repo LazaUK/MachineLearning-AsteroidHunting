@@ -13,7 +13,6 @@ from object_detection import ObjectDetection
 MODEL_FILENAME = 'model.pb'
 LABELS_FILENAME = 'labels.txt'
 
-
 class TFObjectDetection(ObjectDetection):
     """Object Detection class for TensorFlow"""
 
