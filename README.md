@@ -6,7 +6,9 @@ So, for this project I generated synthetic asteroid images using some open sourc
 
 - You can see here output of a model tested with the video of an asetroid's fly-by: https://youtu.be/MGzjm-F5YcA.
 - This is an example of a generated synthetic asteroid image.
+
 <p align="center">
   <img src="/images/Synthetic_Asteroid.png">
 </p>
+
 ![asteroid](images/Synthetic_Asteroid.png)
