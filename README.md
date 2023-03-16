@@ -6,9 +6,7 @@ So, for this project I generated synthetic asteroid images using some open sourc
 
 - You can see here output of a model tested with the video of an asetroid's fly-by: https://youtu.be/MGzjm-F5YcA.
 
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/MGzjm-F5YcA/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=MGzjm-F5YcA)
+[![Img alt text](https://img.youtube.com/vi/MGzjm-F5YcA/0.jpg)](https://www.youtube.com/watch?v=MGzjm-F5YcA)
 
 - This is an example of a generated synthetic asteroid image.
 
