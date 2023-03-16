@@ -5,6 +5,8 @@ In some sitiations, data may be rare or hard to find. For example, NASA’s [dis
 So, for this project I generated synthetic asteroid images using some open source and proprietary 3D software platforms. The object detection model was trained on Azure Custom Vision platform, before being exported into TensorFlow format. Export process also generated a template class to perform asteroid detections.
 
 - You can see here output of a model tested with the video of an asetroid's fly-by: https://youtu.be/MGzjm-F5YcA.
+{% include youtube.html id="MGzjm-F5YcA" %}
+
 - This is an example of a generated synthetic asteroid image.
 
 ![asteroid](images/Synthetic_Asteroid.png)
