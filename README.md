@@ -7,3 +7,5 @@ So, for this project I generated synthetic asteroid images using some open sourc
 - You can check [this YouTube video](https://youtu.be/MGzjm-F5YcA) for an output of my model, tested on a video stream of an asetroid's fly-by.
 [![Img alt text](https://img.youtube.com/vi/MGzjm-F5YcA/0.jpg)](https://www.youtube.com/watch?v=MGzjm-F5YcA)
 
+- This is link to the original video from the European Southern Observatory (ESO).
+[![Img alt text](https://img.youtube.com/vi/36XNdP4i7IA/0.jpg)](https://www.youtube.com/watch?v=36XNdP4i7IA)
