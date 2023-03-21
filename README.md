@@ -10,7 +10,6 @@ For this project with a great help and support from my colleagues (Pedro Urbina,
 - This is link to the [original YouTube video](https://youtu.be/36XNdP4i7IA) from the European Southern Observatory (ESO)[^2].
 [![Img alt text](https://img.youtube.com/vi/36XNdP4i7IA/0.jpg)](https://www.youtube.com/watch?v=36XNdP4i7IA)
 
-------
 [^1]:This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
