@@ -25,8 +25,6 @@ For this project with a great help and support from my colleagues (Pedro Urbina,
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
     
 [^2]:This short video shows an artist's impression of 2004 EW95, the first carbon-rich asteroid confirmed to exist in the Kuiper Belt and a relic of the primordial Solar System. The video shows a fly-by of the enigmatic asteroid as it tumbles through the icy outer reaches of the Solar System due to past interactions with migrating planets.
-
 More information and download options: http://www.eso.org/public/videos/eso1...
-
 Credit:
 ESO/M. Kornmesser
