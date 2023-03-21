@@ -9,3 +9,26 @@ For this project with a great help and support from my colleagues (Pedro Urbina,
 
 - This is link to the [original YouTube video](https://youtu.be/36XNdP4i7IA) from the European Southern Observatory (ESO).
 [![Img alt text](https://img.youtube.com/vi/36XNdP4i7IA/0.jpg)](https://www.youtube.com/watch?v=36XNdP4i7IA)
+```
+This short video shows an artist's impression of 2004 EW95, the first carbon-rich asteroid confirmed to exist in the Kuiper Belt and a relic of the primordial Solar System. The video shows a fly-by of the enigmatic asteroid as it tumbles through the icy outer reaches of the Solar System due to past interactions with migrating planets.
+
+More information and download options: http://www.eso.org/public/videos/eso1...
+
+Credit:
+ESO/M. Kornmesser
+```
+------
+**Note:** Laziz Turakulov, March 2023
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
